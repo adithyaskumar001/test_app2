@@ -18,7 +18,7 @@
 !/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-/tmp/pids/*
+/tmp/pigds/*
 !/tmp/pids/
 !/tmp/pids/.keep
 
