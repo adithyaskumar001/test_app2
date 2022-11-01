@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   root 'welcome#home'
   get 'welcome/about', to: 'welcome#about'
+
+  resources :articles
 end
