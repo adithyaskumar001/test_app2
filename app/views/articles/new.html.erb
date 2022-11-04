@@ -1,20 +1,3 @@
 <h1>Create Articles</h1>
 
-<%= form_for  @article do |f| %>
-	<div>
-		<%= f.label :title %><br/>
-		<%= f.text_field :title %>
-		
-	</div>
-	<div>
-		<%= f.label :description %><br/>
-		<%= f.text_area :description %>
-
-	</div>
-	<div>
-		<%= f.submit %>
-	</div>
-
-
-
-<% end %>
+<%= render 'form' %>
